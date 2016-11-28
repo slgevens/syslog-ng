@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: slgevens
+  description: Ansible role for syslog-ng
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: Ubuntu
+    versions:
+      - all
+  - name: Debian
+    versions:
+      - all
+  categories:
+    - monitoring
+    - system
+  dependencies: []
+...
