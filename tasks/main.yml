@@ -16,5 +16,5 @@
     group="{{ syslog_ng_group }}"
 
 - name: restart syslog-ng
-  service: syslog-ng state=restarted
+  service: name=syslog-ng state=restarted
 ...
