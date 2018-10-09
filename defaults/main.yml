@@ -1,4 +1,5 @@
 ---
+syslog_ng_packages: [syslog-ng, syslog-ng-core]
 syslog_ng_group: root
 syslog_ng_user: root
 syslog_ng_config_version: 3.5

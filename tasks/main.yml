@@ -1,9 +1,6 @@
 ---
 - name: install syslog-ng
-  with_items:
-    - syslog-ng
-    - syslog-ng-core
-  apt: name={{ item }} state=present
+  apt: name="{{ syslog_ng_packages }}" state=present
 
 - name: ensure syslog-ng is running (and enable it at boot)
   service: name=syslog-ng state=started enabled=yes
